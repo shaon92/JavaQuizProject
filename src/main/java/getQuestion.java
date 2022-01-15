@@ -2,7 +2,6 @@ import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;
 import org.json.simple.parser.ParseException;
-
 import java.io.FileReader;
 import java.io.IOException;
 import java.util.Random;
@@ -11,15 +10,14 @@ import java.util.Scanner;
 public class getQuestion {
     public void readQuestions() throws IOException, ParseException {
         int count = 1, points = 0;
-        boolean arEmpty = false;
+        JSONArray jsonArray = null;
         while (count <= 5) {
             String fileName = "./src/main/resources/Questions.json";
             JSONParser jsonParser = new JSONParser();
             Object obj = jsonParser.parse(new FileReader(fileName));
-            JSONArray jsonArray = (JSONArray) obj;
+            jsonArray = (JSONArray) obj;
             if (jsonArray.isEmpty()) {
                 System.out.println("No questions available. Add questions.");
-                arEmpty = true;
                 break;
             } else {
                 int pos = new Random().nextInt(((JSONArray) obj).toArray().length);
@@ -45,14 +43,13 @@ public class getQuestion {
                     } else {
                         System.out.println("Wrong answer. Correct Ans is: " + corr);
                     }
-                }
-                else {
+                } else {
                     System.out.println("Invalid Input.");
                 }
                 count++;
             }
         }
-        if (arEmpty == false) {
+        if (!jsonArray.isEmpty()) {
             System.out.println("\nTotal Points Obtained: " + points);
         }
     }
