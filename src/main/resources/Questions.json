@@ -72,8 +72,6 @@
     "optionOne": "A) water"
   },
   {
-<<<<<<< HEAD
-=======
     "optionFour": "D) None of these",
     "question": "A ........ is approximately one billion bytes",
     "optionCorrect": "B",
@@ -82,7 +80,6 @@
     "optionOne": "A) Megabyte"
   },
   {
->>>>>>> 3d7b24c8f56c4be7cdd0e484ed408620d3e7a9f3
     "optionFour": "D) Control",
     "question": "Which key is used in combination with another key to perform a specific task?",
     "optionCorrect": "D",
