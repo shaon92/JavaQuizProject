@@ -4,7 +4,6 @@
     "question": "MS-Word is an example of _____",
     "optionCorrect": "C",
     "optionTwo": "B) A processing device",
-    "ID": "1",
     "optionThree": "C) Application software",
     "optionOne": "A) An operating system"
   },
@@ -13,7 +12,6 @@
     "question": "What color does yellow and green make?",
     "optionCorrect": "A",
     "optionTwo": "B) Ocean mist",
-    "ID": "2",
     "optionThree": "C) Maroon",
     "optionOne": "A) Lime"
   },
@@ -22,7 +20,6 @@
     "question": "The purest form of iron is ",
     "optionCorrect": "A",
     "optionTwo": "B) steel",
-    "ID": "3",
     "optionThree": "C) pig iron",
     "optionOne": "A) wrought iron"
   },
@@ -31,7 +28,6 @@
     "question": "In which year Bangladesh got independence from Pakistan?",
     "optionCorrect": "D",
     "optionTwo": "B) 1965",
-    "ID": "4",
     "optionThree": "C) 1968",
     "optionOne": "A) 1991"
   },
@@ -40,7 +36,6 @@
     "question": "In which one of the following nations \"Lalbagh Fort\" is located?",
     "optionCorrect": "B",
     "optionTwo": "B) Bangladesh",
-    "ID": "5",
     "optionThree": "C) Nepal",
     "optionOne": "A) USA"
   },
@@ -49,7 +44,6 @@
     "question": "The blue colour of the clear sky is due to",
     "optionCorrect": "B",
     "optionTwo": "B) Dispersion of light",
-    "ID": "6",
     "optionThree": "C) Reflection of light",
     "optionOne": "A) Diffraction of light"
   },
@@ -58,7 +52,6 @@
     "question": "As you go down into a well, your weight",
     "optionCorrect": "B",
     "optionTwo": "B) decreases slightly",
-    "ID": "8",
     "optionThree": "C) remains exactly the same",
     "optionOne": "A) increases slightly"
   },
@@ -67,7 +60,6 @@
     "question": "Which of the following is used in pencils?",
     "optionCorrect": "C",
     "optionTwo": "B) Phosphorous",
-    "ID": "10",
     "optionThree": "C) Graphite",
     "optionOne": "A) Silicon"
   },
@@ -76,25 +68,14 @@
     "question": "The speed of light will be minimum while passing through?",
     "optionCorrect": "D",
     "optionTwo": "B) vaccum",
-    "ID": "11",
     "optionThree": "C) air",
     "optionOne": "A) water"
-  },
-  {
-    "optionFour": "D) None of these",
-    "question": "A ........ is approximately one billion bytes",
-    "optionCorrect": "B",
-    "optionTwo": "B) Gigabyte",
-    "ID": "12",
-    "optionThree": "C) Terabyte",
-    "optionOne": "A) Megabyte"
   },
   {
     "optionFour": "D) Control",
     "question": "Which key is used in combination with another key to perform a specific task?",
     "optionCorrect": "D",
     "optionTwo": "B) Spacebar",
-    "ID": "13",
     "optionThree": "C) Arrow",
     "optionOne": "A) Function"
   },
@@ -103,7 +84,6 @@
     "question": "The smallest unit in a digital system is a.....",
     "optionCorrect": "A",
     "optionTwo": "B) Byte",
-    "ID": "14",
     "optionThree": "C) Character",
     "optionOne": "A) Bit"
   },
@@ -112,7 +92,6 @@
     "question": "What color does yellow and green make?",
     "optionCorrect": "A",
     "optionTwo": "B) Ocean mist",
-    "ID": "15",
     "optionThree": "C) Maroon",
     "optionOne": "A) Lime"
   },
@@ -121,7 +100,6 @@
     "question": "A program in execution is called?",
     "optionCorrect": "C",
     "optionTwo": "B) Function",
-    "ID": "17",
     "optionThree": "C) Process",
     "optionOne": "A) Procedure"
   },
@@ -130,7 +108,6 @@
     "question": "By default, a real number is treated as a?",
     "optionCorrect": "B",
     "optionTwo": "B) Float",
-    "ID": "18",
     "optionThree": "C) Double",
     "optionOne": "A) Integer"
   },
@@ -139,7 +116,6 @@
     "question": "Which is the coldest of all the planets?",
     "optionCorrect": "C",
     "optionTwo": "B) Uranus",
-    "ID": "19",
     "optionThree": "C) Neptune",
     "optionOne": "A) Jupiter"
   },
@@ -148,7 +124,6 @@
     "question": "Smallest of all the continents?",
     "optionCorrect": "B",
     "optionTwo": "B) Australia",
-    "ID": "20",
     "optionThree": "C) Africa",
     "optionOne": "A) Asia"
   },
@@ -175,5 +150,13 @@
     "optionTwo": "B) Animation\/movie file",
     "optionThree": "C) MS Encarta document",
     "optionOne": "A) System file"
+  },
+  {
+    "optionFour": "D) Compact Disc",
+    "question": "'CD' computer abbreviation usually means ?",
+    "optionCorrect": "D",
+    "optionTwo": "B) Change Data",
+    "optionThree": "C) Copy Density",
+    "optionOne": "A) Command Description"
   }
 ]
